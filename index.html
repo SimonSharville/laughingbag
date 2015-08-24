@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+
+<!-- put these links on your page -->
+ <link href="http://code.jquery.com/mobile/latest/jquery.mobile.min.css" rel="stylesheet" type="text/css" />
+ <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.js"></script>
+ <script type="text/javascript" src="scripts/jquery.audioeffects.js"></script>
+ <script type="text/javascript" src="scripts/jquery.touchSwipe-1.2.4.js"></script>
+ <script type="text/javascript" src="scripts/laughsounds.js"></script>
+ 
+ <link href="scripts/laughs.css" rel="stylesheet" type="text/css">
+ <link href="scripts/design.css" rel="stylesheet" type="text/css">
+
+    
+</head>
+
+
+
+<body>  
+<div id="wrapper">
+
+    <div id="bubblewrap">
+    
+        <!--TITLE-->
+        <div class="block" style="height: 80%;">
+            <div class="centered">
+              <img src="images/Laughing-Bag_title.gif" width="400" alt="Laughing Bag by Simon Sharville"/> </div>
+            </div>
+        </div>
+        <!--END TITLE-->
+        
+        <!--LAUGH LINKS-->
+        <a href="#"><img  id="LaughA01" src="images/bubble_blank.png" alt="ha ha"/></a>
+        <a href="#"><img  id="LaughA02" src="images/bubble_blank.png" alt="ha ha"/></a>
+        <!--END LAUGH LINKS-->
+        
+        
+    </div> <!-- END bubblewrap -->
+    
+    <div id="footer">
+        <p><a href="credits.html" title="Credits" target="_self">Credits</a></p>
+        <p><a href="comments.html" title="Comments" target="_self">Comments</a></p>
+        
+        <p class="black">Visitors:</p>
+        
+        <p class="statcounter"><!-- Start of StatCounter Code for Default Guide -->
+        <script type="text/javascript">
+        var sc_project=9906684; 
+        var sc_invisible=0; 
+        var sc_security="7389c74c"; 
+        var sc_text=2; 
+        var scJsHost = (("https:" == document.location.protocol) ?
+        "https://secure." : "http://www.");
+        document.write("<sc"+"ript type='text/javascript' src='" +
+        scJsHost+
+        "statcounter.com/counter/counter.js'></"+"script>");
+        </script>
+        <noscript><div class="statcounter"><a title="web stats"
+        href="http://statcounter.com/free-web-stats/"
+        target="_blank"><img class="statcounter"
+        src="http://c.statcounter.com/9906684/0/7389c74c/0/"
+        alt="web stats"></a></div></noscript>
+        <!-- End of StatCounter Code for Default Guide -->
+        </p>
+    </div><!-- END footer -->
+
+</div> <!-- END wrapper -->
+
+
+<!--  AUDIO FILES  =================================================================================== -->
+
+  <audio id="A01">
+    <source src="laughs/A01.wav"  />
+    <source src="laughs/A01.mp3"  />
+    <source src="laughs/A01.ogg"  />
+    <source src="laughs/A01.m4a"  />
+  </audio>
+  
+    <audio id="A02">
+    <source src="laughs/A02.wav"  />
+    <source src="laughs/A02.mp3"  />
+    <source src="laughs/A02.ogg"  />
+    <source src="laughs/A02.m4a"  />
+  </audio>
+
+
+<!-- Final Scripts  =================================================================================== -->
+
+<!-- noscroll.js Script-->
+<script>
+var xStart, yStart = 0;
+ 
+document.addEventListener('touchstart',function(e) {
+    xStart = e.touches[0].screenX;
+    yStart = e.touches[0].screenY;
+});
+ 
+document.addEventListener('touchmove',function(e) {
+    var xMovement = Math.abs(e.touches[0].screenX - xStart);
+    var yMovement = Math.abs(e.touches[0].screenY - yStart);
+    if((yMovement * 3) > xMovement) {
+        e.preventDefault();
+    }
+});
+</script>
+
+
+
+
+
+</body>
+
+</html>
+
+

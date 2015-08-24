@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+
+
+
+#Laughs {
+    
+}
+
+#LaughA01, #LaughA02, ALL{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    background-image:url(../images/bubble_blank.png); /*Need this for fade to work*/
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#LaughA01{ top: 50%; left: 5%; }
+#LaughA01:hover{ background-image:url(../images/bubble_A01.png); }
+    
+#LaughA02{ top: 50%; left: 25%; }
+#LaughA02:hover{  background-image:url(../images/bubble_A02.png); }
+    
+    
+    
+    

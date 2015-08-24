@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+	margin: 0px 0px 50px 0px; /* outside */
+	padding: 10px 0px 0px 0px; /* inside */
+    font-family: Helvetica, Arial, sans-serif;
+	background-size: 100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	text-align: center;
+	font-weight: normal;
+	display: block;
+       /* part 1 of 2 centering hack */
+}
+		
+#wrapper {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px; /* outside */
+	text-align: center;
+	border: 0px solid red;
+	display: inline-block;
+	z-index:auto 100;
+	top: 0;
+	left: 0;
+}
+
+#bubblewrap {
+	display: inline-block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding: 10px 0px 0px 0px; /* inside */
+    margin: 0px 0px 0px 0px; /* outside */
+	background-color:#f2f2f2;
+	top: 0;
+	left: 0;
+}
+
+#footer {
+	position:fixed;
+	height:50px;
+	background-color: #FFFFFF;
+	bottom:	0px;
+	left:0px;
+	right:0px;
+	margin-bottom:0px;
+	text-align: center;
+	margin: 0px 0px 0px 0px; /* outside */
+	padding: 0px 10px 0px 10px; /* inside */
+}
+
+
+/* Text Block CSS  =================================================================*/
+
+
+/* This parent can be any width and height */
+.block {
+  text-align: center;
+  margin: 0px;
+	z-index: 90;
+}
+ 
+.block:before {
+  content: '';
+  display: inline-block;
+  height: 100%; 
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+    
+  /* For visualization 
+  background: #808080; width: 5px;
+  */
+ }
+ 
+.centered {
+  display: inline-block;
+  vertical-align: middle;
+  width: 500px;
+  padding: 10px 15px;
+ }
+
+
+
+/* Hide highlight and call out on handhelds =================================================*/
+a {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-touch-callout: none;
+}
