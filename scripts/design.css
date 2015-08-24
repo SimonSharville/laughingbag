@@ -3,53 +3,204 @@
 
 
 body {
-	margin: 0px 0px 50px 0px; /* outside */
-	padding: 10px 0px 0px 0px; /* inside */
+  margin: 0px 0px 50px 0px; /* outside */
+  padding: 10px 0px 0px 0px; /* inside */
     font-family: Helvetica, Arial, sans-serif;
-	background-size: 100%;
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	text-align: center;
-	font-weight: normal;
-	display: block;
+  /*background-color: #D6D3D2;*/   /* Grey Background */
+  background-size: 100%;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  text-align: center;
+  font-weight: normal;
+  display: block;
        /* part 1 of 2 centering hack */
 }
-		
+    
 #wrapper {
-	padding: 0px 0px 0px 0px;
-	margin: 0px 0px 0px 0px; /* outside */
-	text-align: center;
-	border: 0px solid red;
-	display: inline-block;
-	z-index:auto 100;
-	top: 0;
-	left: 0;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px; /* outside */
+  text-align: center;
+  border: 0px solid red;
+  display: inline-block;
+  /*background-color:#FFFFFF;*/
+  z-index:auto 100;
+  top: 0;
+  left: 0;
+
 }
 
 #bubblewrap {
-	display: inline-block;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	padding: 10px 0px 0px 0px; /* inside */
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 10px 0px 0px 0px; /* inside */
     margin: 0px 0px 0px 0px; /* outside */
-	background-color:#f2f2f2;
-	top: 0;
-	left: 0;
+  background-color:#f2f2f2;
+  top: 0;
+  left: 0;
 }
 
-#footer {
-	position:fixed;
-	height:50px;
-	background-color: #FFFFFF;
-	bottom:	0px;
-	left:0px;
-	right:0px;
-	margin-bottom:0px;
-	text-align: center;
-	margin: 0px 0px 0px 0px; /* outside */
-	padding: 0px 10px 0px 10px; /* inside */
+/* Title Block CSS  =================================================================*/
+
+
+.titleblock { 
+  position: relative;
+  top:20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
+
+.titleblock img { 
+  width: 40%; height: auto;
+}
+.titleblock p { 
+
+    animation:signup-response 0.5s 1;
+    -webkit-animation:signup-response 0.5s 1;
+    animation-fill-mode: forwards;
+
+    animation-delay:3s;
+    -webkit-animation-delay:1s; /* Safari and Chrome */
+    -webkit-animation-fill-mode: forwards;
+    } 
+
+    @keyframes signup-response{
+        from {opacity :1;}
+        to {opacity :0;}
+    }
+
+    @-webkit-keyframes signup-response{
+        from {opacity :1;}
+        to {opacity :0;}
+    }
+}
+
+
+
+/* iPhone 5 landscape */
+@media only screen and (min-width: 320px) and (max-width: 568px) and (orientation: landscape) {
+  .titleblock { top: 10%; }
+  .titleblock img { width: 40%; height: auto; }
+}
+
+/* iPhone 5 portrait */
+@media only screen and (min-width: 320px) and (max-width: 568px) and (orientation: portrait) {
+  .titleblock { top: 30%; }
+  .titleblock img { width: 60%; height: auto; }
+}
+
+/* iPhone 6 landscape */
+@media only screen and (min-width: 375px) and (max-width: 667px) and (orientation: landscape) {
+  .titleblock { top: 15%; }
+  .titleblock img { width: 40%; height: auto; }
+}
+
+/* iPhone 6 portrait */
+@media only screen and (min-width: 375px) and (max-width: 667px) and (orientation: portrait) {
+  .titleblock { top: 30%; }
+  .titleblock img { width: 60%; height: auto; }
+}
+
+/* iPad Mini landscape */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .titleblock { top: 20%; }
+  .titleblock img { width: 45%; height: auto; }
+}
+
+/* iPad Mini portrait */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .titleblock { top: 25%; }
+  .titleblock img { width: 50%; height: auto; }
+}
+
+
+
+/*#titleblock{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  top: 20%;
+  max-height:10%;
+  margin: 0px;
+  z-index: 90;
+  background:red;
+
+
+}
+
+#titleblock img{
+  position: relative;
+  display: inline;
+  width: 66%;
+  height:10%;
+  
+
+}*/
+
+/*.titleblock:before {
+  content: '';
+  display: inline-block;
+  height: 50%; 
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+ /*   
+   For visualization 
+  background: red; 
+  width: 5px;
+  
+ }
+*/
+
+
+
+
+
+
+/* This parent can be any width and height */
+.block {
+  text-align: center;
+  margin: 0px;
+  z-index: 90;
+}
+ 
+.block:before {
+  content: '';
+  display: inline-block;
+  height: 100%; 
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+    
+  /* For visualization 
+  background: #808080; width: 5px;
+  */
+ }
+ 
+.centered {
+  display: inline-block;
+  vertical-align: middle;
+  width: 500px;
+  padding: 10px 15px;
+ }
+
+
+
+#footer {
+  position:fixed;
+  height:50px;
+  background-color: #FFFFFF;
+  bottom: 0px;
+  left:0px;
+  right:0px;
+  margin-bottom:0px;
+  text-align: center;
+  margin: 0px 0px 0px 0px; /* outside */
+  padding: 0px 10px 0px 10px; /* inside */
+
+}
+
 
 
 /* Text Block CSS  =================================================================*/
