@@ -2,16 +2,16 @@
 /* CSS Document */
 
 
+
 body {
   margin: 0px 0px 50px 0px; /* outside */
   padding: 10px 0px 0px 0px; /* inside */
-    font-family: Helvetica, Arial, sans-serif;
-  /*background-color: #D6D3D2;*/   /* Grey Background */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   background-size: 100%;
   background-repeat:no-repeat;
   background-attachment:fixed;
   text-align: center;
-  font-weight: normal;
   display: block;
        /* part 1 of 2 centering hack */
 }
@@ -51,12 +51,19 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  z-index: 90;
 }
 
 .titleblock img { 
   width: 40%; height: auto;
+  z-index: 90;
 }
 .titleblock p { 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #999;
+    font-size: 1em;
+    letter-spacing: 0.05em;
 
     animation:signup-response 0.5s 1;
     -webkit-animation:signup-response 0.5s 1;
@@ -83,40 +90,39 @@ body {
 /* iPhone 5 landscape */
 @media only screen and (min-width: 320px) and (max-width: 568px) and (orientation: landscape) {
   .titleblock { top: 10%; }
-  .titleblock img { width: 40%; height: auto; }
+  .titleblock img { width: 40%;}
 }
 
 /* iPhone 5 portrait */
 @media only screen and (min-width: 320px) and (max-width: 568px) and (orientation: portrait) {
   .titleblock { top: 30%; }
-  .titleblock img { width: 60%; height: auto; }
+  .titleblock img { width: 60%;}
 }
 
 /* iPhone 6 landscape */
 @media only screen and (min-width: 375px) and (max-width: 667px) and (orientation: landscape) {
   .titleblock { top: 15%; }
-  .titleblock img { width: 40%; height: auto; }
+  .titleblock img { width: 40%;}
 }
 
 /* iPhone 6 portrait */
 @media only screen and (min-width: 375px) and (max-width: 667px) and (orientation: portrait) {
   .titleblock { top: 30%; }
-  .titleblock img { width: 60%; height: auto; }
+  .titleblock img { width: 60%;}
 }
 
 /* iPad Mini landscape */
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .titleblock { top: 20%; }
-  .titleblock img { width: 45%; height: auto; }
+  .titleblock img { width: 45%;}
 }
 
 /* iPad Mini portrait */
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
   .titleblock { top: 25%; }
-  .titleblock img { width: 50%; height: auto; }
+  .titleblock img { width: 50%;}
 }
 
-*/
 
 
 

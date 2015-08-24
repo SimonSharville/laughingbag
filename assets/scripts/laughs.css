@@ -4,6 +4,23 @@
 
 
 
+/* FADING CSS  =================================================================*/
+
+.fadeout {
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -ms-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+
+  
+}
+.fadeout:hover {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}
+
 
 
 
@@ -12,19 +29,20 @@
 }
 
 #LaughA01, #LaughA02, ALL{
-    position: absolute;
-    width: 20%;
-    height: 20%;
-    background-image:url(../images/bubble_blank.png); /*Need this for fade to work*/
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  background-image:url(../images/bubble_blank.png); /*Need this for fade to work*/
 	background-size:contain;
 	background-repeat:no-repeat;
 	background-position:center;
+  z-index: 100;
 }
 
-#LaughA01{ top: 50%; left: 5%; }
+#LaughA01{ top: 5%; left: 5%; }
 #LaughA01:hover{ background-image:url(../images/bubble_A01.png); }
     
-#LaughA02{ top: 50%; left: 25%; }
+#LaughA02{ top: 5%; left: 20%; }
 #LaughA02:hover{  background-image:url(../images/bubble_A02.png); }
     
     
