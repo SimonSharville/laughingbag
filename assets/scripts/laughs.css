@@ -28,7 +28,11 @@
     
 }
 
-#LaughA01, #LaughA02, ALL{
+#LaughA01, #LaughA02, #LaughA03, #LaughA04, #LaughA05, #LaughA06, #LaughA07, #LaughA08,
+#LaughB01, #LaughB02, #LaughB03, #LaughB04, #LaughB05, #LaughB06, #LaughB07, #LaughB08, #LaughB09, #LaughB10, 
+#LaughC01, #LaughC02, #LaughC03, #LaughC04, #LaughC05, #LaughC06, #LaughC07, #LaughC08,
+#LaughD01, #LaughD02, #LaughD03, #LaughD04, #LaughD05, 
+ALL{
   position: absolute;
   width: 20%;
   height: 20%;
@@ -44,6 +48,25 @@
     
 #LaughA02{ top: 5%; left: 15%; }
 #LaughA02:hover{  background-image:url(../images/bubble_A02.png); }
+
+#LaughA03{ top: 5%; left: 25%; }
+#LaughA03:hover{ background-image:url(../images/bubble_A03.png); }
+
+#LaughA04{ top: 5%; left: 35%; }
+#LaughA04:hover{ background-image:url(../images/bubble_A04.png); }
+
+#LaughA05{ top: 5%; left: 45%; }
+#LaughA05:hover{ background-image:url(../images/bubble_A05.png); }
+
+#LaughA06{ top: 5%; left: 55%; }
+#LaughA06:hover{ background-image:url(../images/bubble_A06.png); }
+
+#LaughA07{ top: 5%; left: 65%; }
+#LaughA07:hover{ background-image:url(../images/bubble_A07.png); }
+
+#LaughA08{ top: 5%; left: 75%; }
+#LaughA08:hover{ background-image:url(../images/bubble_A08.png); }
+
     
     
     
