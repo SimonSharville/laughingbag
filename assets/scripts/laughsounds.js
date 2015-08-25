@@ -50,6 +50,8 @@
      volume:0.9
    });
 
+   // B Laughs =============================
+
    $('#LaughB01').audioeffects({
      theTrigger: "mouseover click",
      audioId: "B01",
@@ -110,6 +112,58 @@
      audioId: "B10",
      volume:0.9
    });
+
+   // c Laughs =============================
+
+   $('#LaughC01').audioeffects({
+     theTrigger: "mouseover click",
+     audioId: "C01",
+     volume:0.9
+   });
+
+   $('#LaughC02').audioeffects({
+     theTrigger: "mouseover click",
+     audioId: "C02",
+     volume:0.9
+   });
+
+   $('#LaughC03').audioeffects({
+     theTrigger: "mouseover click",
+     audioId: "C03",
+     volume:0.9
+   });
+
+   $('#LaughC04').audioeffects({
+     theTrigger: "mouseover click",
+     audioId: "C04",
+     volume:0.9
+   });
+
+   $('#LaughC05').audioeffects({
+     theTrigger: "mouseover click",
+     audioId: "C05",
+     volume:0.9
+   });
+
+   $('#LaughC06').audioeffects({
+     theTrigger: "mouseover click",
+     audioId: "C06",
+     volume:0.9
+   });
+
+   $('#LaughC07').audioeffects({
+     theTrigger: "mouseover click",
+     audioId: "C07",
+     volume:0.9
+   });
+
+   $('#LaughC08').audioeffects({
+     theTrigger: "mouseover click",
+     audioId: "C08",
+     volume:0.9
+   });
+
+
 
 
 

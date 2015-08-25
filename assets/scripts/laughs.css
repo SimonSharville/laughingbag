@@ -69,7 +69,7 @@ ALL{
 #LaughA08{ top: 5%; left: 75%; }
 #LaughA08:hover{ background-image:url(../images/bubble_A08.png); }
 
-
+/* B Laughs ==================================================================== */
 
 #LaughB01{ top: 15%; left: 0%; }
 #LaughB01:hover{ background-image:url(../images/bubble_B01.png); }
@@ -100,3 +100,31 @@ ALL{
 
 #LaughB10{ top: 15%; left: 80%; }
 #LaughB10:hover{ background-image:url(../images/bubble_B10.png); }
+
+/* C Laughs ==================================================================== */
+
+#LaughC01{ top: 30%; left: 5%; }
+#LaughC01:hover{ background-image:url(../images/bubble_C01.png); }
+
+#LaughC02{ top: 30%; left: 15%; }
+#LaughC02:hover{ background-image:url(../images/bubble_C02.png); }
+
+#LaughC03{ top: 30%; left: 25%; }
+#LaughC03:hover{ background-image:url(../images/bubble_C03.png); }
+
+#LaughC04{ top: 30%; left: 35%; }
+#LaughC04:hover{ background-image:url(../images/bubble_C04.png); }
+
+#LaughC05{ top: 30%; left: 45%; }
+#LaughC05:hover{ background-image:url(../images/bubble_C05.png); }
+
+#LaughC06{ top: 30%; left: 55%; }
+#LaughC06:hover{ background-image:url(../images/bubble_C06.png); }
+
+#LaughC07{ top: 30%; left: 65%; }
+#LaughC07:hover{ background-image:url(../images/bubble_C07.png); }
+
+#LaughC08{ top: 30%; left: 75%; }
+#LaughC08:hover{ background-image:url(../images/bubble_C08.png); }
+
+
