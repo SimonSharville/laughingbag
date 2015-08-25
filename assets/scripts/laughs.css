@@ -36,6 +36,8 @@ ALL{
   position: absolute;
   width: 20%;
   height: 20%;
+  padding:0;
+  margin:0;
   background-image:url(../images/bubble_blank.png); /*Need this for fade to work*/
 	background-size:contain;
 	background-repeat:no-repeat;
@@ -67,7 +69,34 @@ ALL{
 #LaughA08{ top: 5%; left: 75%; }
 #LaughA08:hover{ background-image:url(../images/bubble_A08.png); }
 
+
+
+#LaughB01{ top: 15%; left: 0%; }
+#LaughB01:hover{ background-image:url(../images/bubble_B01.png); }
+
+#LaughB02{ top: 15%; left: 10%; }
+#LaughB02:hover{ background-image:url(../images/bubble_B02.png); }
+
+#LaughB03{ top: 15%; left: 20%; }
+#LaughB03:hover{ background-image:url(../images/bubble_B03.png); }
+
+#LaughB04{ top: 15%; left: 30%; }
+#LaughB04:hover{ background-image:url(../images/bubble_B04.png); }
+
+#LaughB05{ top: 15%; left: 40%; }
+#LaughB05:hover{ background-image:url(../images/bubble_B05.png); }
     
+#LaughB06{ top: 15%; left: 50%; }
+#LaughB06:hover{ background-image:url(../images/bubble_B06.png); }
     
+#LaughB07{ top: 15%; left: 60%; }
+#LaughB07:hover{ background-image:url(../images/bubble_B07.png); }
     
-    
+#LaughB08{ top: 15%; left: 70%; }
+#LaughB08:hover{ background-image:url(../images/bubble_B08.png); }
+
+/*#LaughB09{ top: 15%; left: 80%; }
+#LaughB09:hover{ background-image:url(../images/bubble_B09.png); }*/
+
+#LaughB10{ top: 15%; left: 80%; }
+#LaughB10:hover{ background-image:url(../images/bubble_B10.png); }
