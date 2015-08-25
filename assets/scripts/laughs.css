@@ -127,4 +127,21 @@ ALL{
 #LaughC08{ top: 30%; left: 75%; }
 #LaughC08:hover{ background-image:url(../images/bubble_C08.png); }
 
+/* D Laughs ==================================================================== */
+
+#LaughD01{ top: 45%; left: 0%; }
+#LaughD01:hover{ background-image:url(../images/bubble_D01.png); }
+
+#LaughD02{ top: 45%; left: 10%; }
+#LaughD02:hover{ background-image:url(../images/bubble_D02.png); }
+
+#LaughD03{ top: 45%; left: 20%; }
+#LaughD03:hover{ background-image:url(../images/bubble_D03.png); }
+
+#LaughD04{ top: 45%; left: 30%; }
+#LaughD04:hover{ background-image:url(../images/bubble_D04.png); }
+
+#LaughD05{ top: 45%; left: 40%; }
+#LaughD05:hover{ background-image:url(../images/bubble_D05.png); }
+
 

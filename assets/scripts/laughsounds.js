@@ -113,7 +113,7 @@
      volume:0.9
    });
 
-   // c Laughs =============================
+   // C Laughs =============================
 
    $('#LaughC01').audioeffects({
      theTrigger: "mouseover click",
@@ -162,6 +162,39 @@
      audioId: "C08",
      volume:0.9
    });
+
+   // D Laughs =============================
+
+   $('#LaughD01').audioeffects({
+     theTrigger: "mouseover click",
+     audioId: "D01",
+     volume:0.9
+   });
+
+   $('#LaughD02').audioeffects({
+     theTrigger: "mouseover click",
+     audioId: "D02",
+     volume:0.9
+   });
+
+   $('#LaughD03').audioeffects({
+     theTrigger: "mouseover click",
+     audioId: "D03",
+     volume:0.9
+   });
+
+   $('#LaughD04').audioeffects({
+     theTrigger: "mouseover click",
+     audioId: "D04",
+     volume:0.9
+   });
+
+   $('#LaughD05').audioeffects({
+     theTrigger: "mouseover click",
+     audioId: "D05",
+     volume:0.9
+   });
+
 
 
 
