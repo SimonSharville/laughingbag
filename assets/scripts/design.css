@@ -43,7 +43,7 @@ body {
 /* Title Block CSS  =================================================================*/
 
 .thumbnail{
-  visibility:hidden;
+  visibility:hidden!IMPORTANT;
 }
 
 .titleblock { 
