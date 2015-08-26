@@ -42,9 +42,6 @@ body {
 
 /* Title Block CSS  =================================================================*/
 
-.thumbnail{
-  visibility:hidden!IMPORTANT;
-}
 
 .titleblock { 
   position: relative;
