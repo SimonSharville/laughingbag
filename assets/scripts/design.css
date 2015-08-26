@@ -44,6 +44,8 @@ body {
 
 .thumbnail{
   visibility:hidden!IMPORTANT;
+  width: 0px;
+  height: 0px;
 }
 
 .titleblock { 
