@@ -226,7 +226,37 @@ a:active {
 }
 
 
-
+/* Facebook link */
+.fb_iframe_widget iframe {
+    position:absolute;
+    top:-165px;
+    background:#fff;
+    right:10px;
+}
+@media (min-width:1200px) {
+    .fb_iframe_widget iframe {
+        position:absolute;
+        top:-165px;
+        background:#fff;
+        right:-45px;
+    }
+}
+@media (max-width:979px) and (min-width: 768px) {
+    .fb_iframe_widget iframe {
+        position:absolute;
+        top:-165px;
+        background:#fff;
+        right:110px;
+    }
+}
+@media (max-width:767px) {
+    .fb_iframe_widget iframe {
+        position:absolute;
+        top:-165px;
+        background:#fff;
+        right:0px;
+    }
+}
 
 /* Hide highlight and call out on handhelds =================================================*/
 a {
