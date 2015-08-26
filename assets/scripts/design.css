@@ -137,7 +137,7 @@ body {
 
 #footer {
   position:fixed;
-  display:inline-block;
+  display:inline;
   height:50px;
   background-color: #FFFFFF;
   bottom: 0px;
