@@ -4,14 +4,7 @@
 
 <meta charset="UTF-8">
 <title>Laughing Bag – Roll over or Tap to lighten your day</title>
-<!-- You can use open graph tags to customize link previews.
-Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
-<!-- <meta property="og:url"           content="http://www.laughingbag.co.uk" />
-<meta property="og:type"          content="website" />
-<meta property="og:title"         content="Laughing Bag" />
-<meta property="og:description"   content="A website dedicated to cheering you up. Roll over or Tap the site to hear laughs, Tee-Hee's and Ha-Ha's. Designed and built by Simon Sharville" />
-<meta property="og:image"         content="http://www.laughingbag.co.uk/assets/images/bubble_A01.png" />
- -->
+
 <meta name="description" content="Laughing Bag, a website dedicated to cheering you up. Roll over or Tap the site to hear laughs, Tee-Hee's and Ha-Ha's. Designed and built by Simon Sharville">
 
 <meta name="keywords" content="Simon Sharville, Freelance, Graphic Design, Graphic Designer, Laughing, Bag, Laughter, Laugh, Tee-Hee, Ha-Ha, Ho-Ho, Chuckle, Giggle, Chortle, guffaw">
@@ -34,6 +27,10 @@ Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
  <link href="assets/scripts/design.css" rel="stylesheet" type="text/css">
  <link href="assets/scripts/fonts.css" rel="stylesheet" type="text/css">
 
+ <link rel="stylesheet" href="assets/scripts/social-likes_flat.css">
+ <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+ <script src="assets/scripts/social-likes.min.js"></script>
+
 
     
 </head>
@@ -46,16 +43,6 @@ Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
 
 
 <div id="wrapper">
-  <div id="fb-root"></div>
-<!-- <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
- -->
 
     <div id="bubblewrap"> 
 
@@ -120,10 +107,10 @@ Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
     <div id="footer">
         <p><a href="credits.html" title="Credits" target="_self">Credits</a></p>
         <p><a href="comments.html" title="Comments" target="_self">Comments</a></p>
-<!--         <div class="fb-like" data-href="http://www.laughingbag.co.uk" data-width="100" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div> -->  
-
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<div class="addthis_native_toolbox"></div>      
+        <div class="social-likes">
+          <div class="facebook" title="Share link on Facebook">Facebook</div>
+          <div class="twitter" title="Share link on Twitter">Twitter</div>
+        </div>
         
     </div><!-- END footer -->
 
