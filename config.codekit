@@ -512,7 +512,7 @@
 		"inputAbbreviatedPath": "\/assets\/scripts\/rrssb\/rrssb.scss",
 		"outputAbbreviatedPath": "\/assets\/scripts\/rrssb\/rrssb.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
