@@ -65,9 +65,9 @@ body {
   width: 25%; height: auto;
   z-index: 90;
   -webkit-filter: grayscale(100%);
-filter: grayscale(100%);
-opacity: 0.2;
-    filter: alpha(opacity=20); /* For IE8 and earlier */
+  filter: grayscale(100%);
+  opacity: 0.2;
+  filter: alpha(opacity=20); /* For IE8 and earlier */
 }
 .titleblock p { 
     font-family: 'Roboto', sans-serif;
