@@ -6,16 +6,16 @@
 
 .supersocialshare.bubble {
     display: block;
-    width: 64px;
-    height: 64px;
+    width: 60px;
+    height: 60px;
     position: relative;
     z-index: 1;
 }
 
 .supersocialshare.bubble .sb_main {
     display: block;
-    width: 64px;
-    height: 64px;
+    width: 60px;
+    height: 60px;
     background-position: 0px 0px;
     position: absolute;
     top: 0;
@@ -23,17 +23,17 @@
     z-index: 2;
     cursor: pointer;
     text-indent: -9999px;
-    background-size: 64px 128px;
+    background-size: 60px 120px;
 }
 
 .supersocialshare.bubble .sb_main:hover {
-    background-position: 0px -64px;
+    background-position: 0px -60px;
 }
 
 .supersocialshare.bubble .sb_network_button {
     display: block;
-    width: 46px;
-    height: 46px;
+    width: 40px;
+    height: 40px;
     background-repeat: no-repeat;
     background-position: 0px 0px;
     position: absolute;
@@ -42,11 +42,11 @@
     z-index: 1;
     cursor: pointer;
     text-indent: -9999px;
-    background-size: 46px 92px;
+    background-size: 40px 80px;
 }
 
 .supersocialshare.bubble .sb_network_button:hover {
-    background-position: 0px -46px;
+    background-position: 0px -40px;
 }
 
 /*

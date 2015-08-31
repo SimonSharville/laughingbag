@@ -147,6 +147,18 @@ opacity: 0.2;
 
 /* Footer  =================================================================*/
 
+#social {
+  position:fixed;
+  height:70px;
+  bottom: 70px;
+  left:0px;
+  right:0px;
+  text-align: center;
+  padding-left: 10px;
+
+}
+
+
 #footer {
   position:fixed;
   height:70px;
