@@ -35,14 +35,12 @@
 <!-- [if IE 7]> <link rel="stylesheet" type="text/css" href="assets/css/SuperSocialShare-ie7.css"> <![endif]  -->
 <link rel="stylesheet" href="assets/scripts/ssshare/SuperSocialShare.css" type="text/css" /> 
 <script src="assets/scripts/ssshare/SuperSocialShare.js" type="text/javascript"></script>
+<script src="assets/scripts/preload.js" type="text/javascript"></script>
 
 
     
 </head>
 
-
-
-<body> 
 
 
 <div id="wrapper">
@@ -53,14 +51,14 @@
 
 
       <!-- TITLE-->  
+      <div id="instructions">
+        <p>Hover or Tap anywhere on the screen</p>
+      </div>
 
       <div id="titleblock" class="titleblock">
-        <!-- <img src="assets/images/thumbnail.png" alt="Laughing Bag by Simon Sharville" class="thumbnail"/> -->
-        <img src="assets/images/Laughing-Bag.png" alt="Laughing Bag by Simon Sharville" style="height: auto"/> 
-        
-        <p>Click or Tap anywhere on the screen</p>
-        
+        <img src="assets/images/Laughing-Bag.png" alt="Laughing Bag by Simon Sharville" /> 
       </div>
+      
       <!--END TITLE-->
 
         
@@ -109,29 +107,21 @@
         
     </div> <!-- END bubblewrap -->
     
+    <div id="counter">
+      <p class="counter">Test 23</p>
+    </div><!-- END counter -->
+
     <div id="social">
       <div class="supersocialshare" data-networks="facebook,google,twitter,linkedin,email" data-orientation="line" data-gap="46" data-theme="dark" data-title="You may find this funny"></div>
     </div><!-- END social -->
 
 
+
+
     <div id="footer">
-      <div id="FooterContainer">
-
-        <div id="FooterSocial">
-                            
-        </div><!-- END FooterSocial -->
-
-        <div id="FooterInfo">
           <p><a href="credits.html" title="Credits" target="_self">Credits</a></p>
           <p><a href="comments.html" title="Comments" target="_self">Comments</a></p>
-        </div><!-- END FooterInfo -->
-
-        <div id="FooterCounter">
-          <p>Test 17</p>
-        </div><!-- END FooterCounter -->
-
-      </div><!-- END FooterContainer -->
-
+          
     </div><!-- END footer -->
 
 </div> <!-- END wrapper -->
@@ -401,5 +391,3 @@ document.addEventListener('touchmove',function(e) {
 </body>
 
 </html>
-
-
