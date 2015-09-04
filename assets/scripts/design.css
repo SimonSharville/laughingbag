@@ -27,7 +27,6 @@ body {
   z-index:auto 100;
   top: 0;
   left: 0;
-  border: 1px solid blue;
 
 }
 
@@ -216,6 +215,18 @@ body {
   z-index: 90;
 }
 
+
+#Contact { 
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 70px;
+  background: red;
+}
+
+
 .comment{
   margin-bottom: 20px;
 }
@@ -233,7 +244,6 @@ body {
   padding-left: 10px;
   width:100%;
   z-index: 110;
-  background:#f2f2f2;
 }
 
 #counter {
@@ -265,9 +275,7 @@ body {
   padding-top:10px;
 }
 
-.counter{
-  padding-right: 5px;
-}
+
 
 
 
@@ -323,9 +331,9 @@ p {
 }
 
 .statcounter {
-  padding: 10px 0px 0px 0px;
-  margin: 10px 0px 4px -20px;
-  color:#000;
+  padding: 0px 0px 0px 0px;
+  margin: 0px -10px 0px 0px;
+  color:#666;
   
 }
 
