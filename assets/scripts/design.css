@@ -14,7 +14,7 @@ body {
   background-attachment:fixed;
   text-align: center;
   display: inline-block;
-    background-color:#f2f2f2;
+  background-color:#f2f2f2;
 
 }
     
@@ -27,7 +27,6 @@ body {
   z-index:auto 100;
   top: 0;
   left: 0;
-  border: 1px solid blue;
 
 }
 
@@ -43,14 +42,6 @@ body {
 }
 
 /* Title Block CSS  =================================================================*/
-
-
-/*.thumbnail{
-  visibility:hidden!IMPORTANT;
-  width: 0px;
-  height: 0px;
-}
-*/
 
 
 .titleblock { 
@@ -182,17 +173,23 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  z-index: 90;
 }
 
 #CreditLogo img { 
   width: 200px; height: auto;
-  z-index: 90;
+  margin-bottom: 50px;
+}
+
+#Declaration { 
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #Credits { 
   position: relative;
-  top:50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -204,6 +201,35 @@ body {
   margin-bottom: 10px;
 }
 
+#Divider { 
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+#Divider img { 
+  width: 400px; height: auto;
+  z-index: 90;
+}
+
+
+#Contact { 
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 70px;
+  background: red;
+}
+
+
+.comment{
+  margin-bottom: 20px;
+}
 
 
 
@@ -218,7 +244,6 @@ body {
   padding-left: 10px;
   width:100%;
   z-index: 110;
-  background:#f2f2f2;
 }
 
 #counter {
@@ -250,9 +275,7 @@ body {
   padding-top:10px;
 }
 
-.counter{
-  padding-right: 5px;
-}
+
 
 
 
@@ -272,13 +295,14 @@ h1 {
 }
 h2 { 
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-weight: 100;
   font-size: 1.8em;  /* 16x4 = 80 */
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
   line-height: 1.7em;
   top: 0px;
-  margin: 10px 0px 4px 0px;
+  margin: 0px 0px 10px 0px;
   padding: 10px 0px 0px 0px;
-  font-weight: 300;
+  
   line-height: 0.95em;
   color: #666;
 }
@@ -307,9 +331,9 @@ p {
 }
 
 .statcounter {
-  padding: 10px 0px 0px 0px;
-  margin: 10px 0px 4px -20px;
-  color:#000;
+  padding: 0px 0px 0px 0px;
+  margin: 0px -10px 0px 0px;
+  color:#666;
   
 }
 
