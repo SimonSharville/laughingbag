@@ -182,17 +182,23 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  z-index: 90;
 }
 
 #CreditLogo img { 
   width: 200px; height: auto;
-  z-index: 90;
+  margin-bottom: 50px;
+}
+
+#Declaration { 
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #Credits { 
   position: relative;
-  top:50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -204,6 +210,23 @@ body {
   margin-bottom: 10px;
 }
 
+#Divider { 
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+#Divider img { 
+  width: 400px; height: auto;
+  z-index: 90;
+}
+
+.comment{
+  margin-bottom: 20px;
+}
 
 
 
@@ -272,13 +295,14 @@ h1 {
 }
 h2 { 
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-weight: 100;
   font-size: 1.8em;  /* 16x4 = 80 */
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
   line-height: 1.7em;
   top: 0px;
-  margin: 10px 0px 4px 0px;
+  margin: 0px 0px 10px 0px;
   padding: 10px 0px 0px 0px;
-  font-weight: 300;
+  
   line-height: 0.95em;
   color: #666;
 }
