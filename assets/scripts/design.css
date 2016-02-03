@@ -100,70 +100,6 @@ body {
     }
 }
 
-
-
-/* iPhone 5 landscape */
-@media only screen and (min-width: 320px) and (max-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  .titleblock { top: 10%; }
-  .titleblock img { width: 20%;}
-  #instructions p { font-size: 0.5em; }
-}
-
-/* iPhone 5 portrait */
-@media only screen and (min-width: 320px) and (max-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  .titleblock { top: 20%; }
-  .titleblock img { width: 60%;}
-  #instructions { top: 5%; }
-  #instructions p { font-size: 0.67em; }
-}
-
-/* iPhone 6 landscape */
-@media only screen and (min-width: 375px) and (max-width: 667px) and (orientation: landscape) {
-  .titleblock { top: 8%; }
-  .titleblock img { width: 30%;}
-  #instructions { top: 3%; }
-  #instructions p { font-size: 0.8em; }
-}
-
-/* iPhone 6 portrait */
-@media only screen and (min-width: 375px) and (max-width: 667px) and (orientation: portrait) {
-  .titleblock { top: 20%; }
-  .titleblock img { width: 60%;}
-  #instructions p { font-size: 0.75em; }
-}
-
-/* iPhone 6 Plus landscape */
-@media only screen and (min-width: 414px) and (max-width: 736px) and (orientation: landscape) {
-  .titleblock { top: 8%; }
-  .titleblock img { width: 30%;}
-  #instructions { top: 3%; }
-  #instructions p { font-size: 0.67em; }
-}
-
-/* iPhone 6 Plus portrait */
-@media only screen and (min-width: 414px) and (max-width: 736px) and (orientation: portrait) {
-  .titleblock { top: 20%; }
-  .titleblock img { width: 60%;}
-  #instructions p { font-size: 0.67em; }
-}
-
-/* iPad Mini landscape */
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .titleblock { top: 10%; }
-  .titleblock img { width: 40%;}
-  #instructions { top: 5%; }
-  #instructions p { font-size: 0.75em; }
-}
-
-/* iPad Mini portrait */
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
-  .titleblock { top: 20%; }
-  .titleblock img { width: 50%; }
-  #instructions { top: 5%; }
-  #instructions p { font-size: 0.75em; }
-}
-
-
 /* Credit page  =================================================================*/
 
 #CreditLogo { 
@@ -223,13 +159,16 @@ body {
   align-items: center;
   flex-direction: column;
   margin-bottom: 70px;
-  background: red;
 }
 
 
 .comment{
   margin-bottom: 20px;
 }
+
+
+
+
 
 
 
@@ -361,4 +300,74 @@ a:active {
 a {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 	-webkit-touch-callout: none;
+}
+
+/* Responsive  =================================================================*/
+
+/* iPhone 5 landscape */
+@media only screen and (min-width: 320px) and (max-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .titleblock { top: 10%; }
+  .titleblock img { width: 20%;}
+  #instructions p { font-size: 0.5em; }
+  #CreditLogo img { width: 100px; height: auto; margin-top: 10px; margin-bottom: 0px; }
+}
+
+/* iPhone 5 portrait */
+@media only screen and (min-width: 320px) and (max-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .titleblock { top: 20%; }
+  .titleblock img { width: 60%;}
+  #instructions { top: 5%; }
+  #instructions p { font-size: 0.67em; }
+  #CreditLogo img { width: 100px; height: auto; margin-top: 10px; margin-bottom: 0px; }
+  #Divider img { width: 300px; height: auto; }
+}
+
+/* iPhone 6 landscape */
+@media only screen and (min-width: 375px) and (max-width: 667px) and (orientation: landscape) {
+  .titleblock { top: 8%; }
+  .titleblock img { width: 30%;}
+  #instructions { top: 3%; }
+  #instructions p { font-size: 0.8em; }
+  #CreditLogo img { width: 100px; height: auto; margin-top: 10px; margin-bottom: 0px; }
+}
+
+/* iPhone 6 portrait */
+@media only screen and (min-width: 375px) and (max-width: 667px) and (orientation: portrait) {
+  .titleblock { top: 20%; }
+  .titleblock img { width: 60%;}
+  #instructions p { font-size: 0.75em; }
+}
+
+/* iPhone 6 Plus landscape */
+@media only screen and (min-width: 414px) and (max-width: 736px) and (orientation: landscape) {
+  .titleblock { top: 8%; }
+  .titleblock img { width: 30%;}
+  #instructions { top: 3%; }
+  #instructions p { font-size: 0.67em; }
+  #CreditLogo img { width: 100px; height: auto; margin-top: 10px; margin-bottom: 0px; }
+}
+
+/* iPhone 6 Plus portrait */
+@media only screen and (min-width: 414px) and (max-width: 736px) and (orientation: portrait) {
+  .titleblock { top: 20%; }
+  .titleblock img { width: 60%;}
+  #instructions p { font-size: 0.67em; }
+}
+
+/* iPad Mini landscape */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .titleblock { top: 10%; }
+  .titleblock img { width: 40%;}
+  #instructions { top: 5%; }
+  #instructions p { font-size: 0.75em; }
+  #CreditLogo img { width: 200px; height: auto; margin-top: 10px; margin-bottom: 0px; }
+}
+
+/* iPad Mini portrait */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .titleblock { top: 20%; }
+  .titleblock img { width: 50%; }
+  #instructions { top: 5%; }
+  #instructions p { font-size: 0.75em; }
+  #CreditLogo img { width: 200px; height: auto; margin-top: 10px; margin-bottom: 0px; }
 }
