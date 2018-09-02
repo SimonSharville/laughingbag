@@ -39,6 +39,7 @@ body {
   margin: 0px 0px 0px 0px;
   top: 0;
   left: 0;
+  border: 1px dashed red;
 }
 
 /* Title Block CSS  =================================================================*/
@@ -88,7 +89,6 @@ body {
     animation-delay:5s;
     -webkit-animation-delay:3s; /* Safari and Chrome */
     -webkit-animation-fill-mode: forwards;
-    } 
 
     @keyframes signup-response{
         from {opacity :1;}
