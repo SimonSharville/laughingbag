@@ -21,18 +21,13 @@
   opacity: 1;
 }
 
+/* .laugh{ // For position testing
+  border:1px dashed red;
+} */
 
 
 
-#Laughs {
-    
-}
-
-#LaughA01, #LaughA02, #LaughA03, #LaughA04, #LaughA05, #LaughA06, #LaughA07, #LaughA08,
-#LaughB01, #LaughB02, #LaughB03, #LaughB04, #LaughB05, #LaughB06, #LaughB07, #LaughB08, #LaughB09, #LaughB10, 
-#LaughC01, #LaughC02, #LaughC03, #LaughC04, #LaughC05, #LaughC06, #LaughC07, #LaughC08,
-#LaughD01, #LaughD02, #LaughD03, #LaughD04, #LaughD05, 
-ALL{
+.laugh{
   position: absolute;
   width: 20%;
   height: 20%;
@@ -47,7 +42,7 @@ ALL{
 
 #LaughA01{ top: 5%; left: 5%; }
 #LaughA01:hover{ background-image:url(../images/bubble_A01.png); }
-    
+
 #LaughA02{ top: 5%; left: 15%; }
 #LaughA02:hover{  background-image:url(../images/bubble_A02.png); }
 
@@ -85,13 +80,13 @@ ALL{
 
 #LaughB05{ top: 15%; left: 40%; }
 #LaughB05:hover{ background-image:url(../images/bubble_B05.png); }
-    
+
 #LaughB06{ top: 15%; left: 50%; }
 #LaughB06:hover{ background-image:url(../images/bubble_B06.png); }
-    
+
 #LaughB07{ top: 15%; left: 60%; }
 #LaughB07:hover{ background-image:url(../images/bubble_B07.png); }
-    
+
 #LaughB08{ top: 15%; left: 70%; }
 #LaughB08:hover{ background-image:url(../images/bubble_B08.png); }
 
